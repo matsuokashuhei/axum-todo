@@ -1,0 +1,18 @@
+{
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "axum",
+    "workspaceFolder": "/usr/src/app",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "rust-lang.rust"
+    ],
+    "settings": {
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "editor.formatOnSave": true,
+        "workbench.editor.enablePreview": false,
+        "workbench.editor.enablePreviewFromQuickOpen": false,
+        "terminal.integrated.scrollback": 10000
+    }
+}
