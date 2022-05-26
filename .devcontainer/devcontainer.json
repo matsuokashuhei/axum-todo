@@ -1,10 +1,11 @@
 {
-    "dockerComposeFile": "../docker-compose.yml",
+    "dockerComposeFile": "../compose.yml",
     "service": "axum",
     "workspaceFolder": "/usr/src/app",
     "shutdownAction": "stopCompose",
     "extensions": [
-        "rust-lang.rust"
+        // "rust-lang.rust",
+        "rust-lang.rust-analyzer"
     ],
     "settings": {
         "files.insertFinalNewline": true,
