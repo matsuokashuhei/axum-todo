@@ -1,7 +1,3 @@
-// fn main() {
-//     println!("Hello, world!");
-// }
-
 use axum::{
     http::StatusCode,
     response::IntoResponse,
