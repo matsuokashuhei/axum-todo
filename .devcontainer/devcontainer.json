@@ -4,8 +4,10 @@
     "workspaceFolder": "/usr/src/app",
     "shutdownAction": "stopCompose",
     "extensions": [
-        // "rust-lang.rust",
-        "rust-lang.rust-analyzer"
+        "rust-lang.rust-analyzer",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "be5invis.toml"
     ],
     "settings": {
         "files.insertFinalNewline": true,
